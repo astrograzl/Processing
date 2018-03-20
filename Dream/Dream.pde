@@ -18,8 +18,8 @@ void draw()
   head.show();
   for (Limb limb : body)
     limb.show();
-  saveFrame("dream-#####.png");
-  if (frameCount == 200) exit();
+  //saveFrame("dream-#####.png");
+  //if (frameCount == 200) exit();
 }
 
 void create()

@@ -19,6 +19,7 @@ class Limb {
 
   void show()
   {
+    o += dt;
     update();
     for (int i = 0; i < 15; i++) {
       float dx = random(-25, 25);

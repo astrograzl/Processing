@@ -8,8 +8,7 @@ class Arm extends Limb {
 
   void update()
   {
-    o += dt;
-    if (o > a + 25 || o < a - 25) dt *= -1;
+    if (o < a - 25 || o > a + 25) dt *= -1;
     x = r * cos(radians(o));
     y = r * sin(radians(o));
   }
